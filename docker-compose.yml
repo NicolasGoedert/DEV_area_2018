@@ -1,0 +1,42 @@
+version: '3.1'
+
+services:
+
+    web:
+        build: ./web
+        command : nodemon
+        volumes:
+            - './web:/usr/src/web'
+            - /usr/src/web/node_modules
+        ports:
+            - '8081:8081'
+        environment:
+            - NODE_ENV=development
+        depends_on:
+            - mobile
+            - server
+
+    mobile:
+        build: ./mobile
+        volumes:
+            - './mobile:/usr/src/mobile'
+        #     - /usr/src/mobile/node_modules
+
+    server:
+        build: ./server
+        volumes:
+            - './server:/usr/src/server'
+            - /usr/src/server/node_modules
+        ports:
+            - "8080:8080"
+        environment:
+            - NODE_ENV=development
+        links:
+            - mongo
+
+    mongo:
+        image: mongo
+        ports:
+            - "27017"
+        environment:
+            MONGO_INITDB_DATABASE: area

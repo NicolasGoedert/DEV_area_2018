@@ -1,0 +1,22 @@
+{
+    "name": "web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "web.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon web.js"
+    },
+    "dependencies": {
+      "body-parser": "^1.15.0",
+      "cookie-parser": "^1.4.4",
+      "cors": "^2.8.5",
+      "express": "^4.16.1",
+      "guid": "0.0.12",
+      "mustache": "^2.2.1",
+      "querystring": "^0.2.0",
+      "request": "^2.69.0"
+    },
+    "author": "",
+    "license": "ISC"
+}

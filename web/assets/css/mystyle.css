@@ -1,0 +1,68 @@
+.facebook {
+  color: #FFFFFF;
+  background-color: #204F9F;
+}
+.facebook:hover {
+  color: #204F9F;
+  background-color: #FFFFFF;
+}
+
+
+.spotify {
+  color: #FFFFFF;
+  background-color: #1ED760;
+}
+.spotify:hover {
+  color: #1ED760;
+  background-color: #FFFFFF;
+}
+
+
+.insta {
+  color: #FFFFFF;
+  background-color: #BA127F;
+}
+.insta:hover {
+  color: #BA127F;
+  background-color: #FFFFFF;
+}
+
+
+.intra {
+  color: #FFFFFF;
+  background-color: #006AB3;
+}
+.intra:hover {
+  color: #006AB3;
+  background-color: #FFFFFF;
+}
+
+
+.gmail {
+  color: #FFFFFF;
+  background-color: #DC4336;
+}
+.gmail:hover {
+  color: #DC4336;
+  background-color: #FFFFFF;
+}
+
+
+.outlook {
+  color: #FFFFFF;
+  background-color: #0071C5;
+}
+.outlook:hover {
+  color: #0071C5;
+  background-color: #FFFFFF;
+}
+
+
+.deezer {
+  color: #FFFFFF;
+  background-color: #3A3A3A;
+}
+.deezer:hover {
+  color: #3A3A3A;
+  background-color: #FFFFFF;
+}
