@@ -1,3 +1,3 @@
 # DEV_area_2018
 
-<iframe src="https://giphy.com/embed/InAOgGc23gFZC" width="480" height="394" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/redneck-InAOgGc23gFZC">via GIPHY</a></p>
+![giphy](https://user-images.githubusercontent.com/28253319/54086651-9b61d900-434b-11e9-860e-cb38916e2c99.gif)
